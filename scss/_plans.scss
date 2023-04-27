@@ -1,0 +1,20 @@
+/*PAGE PLANES*/
+.h2__titulo {
+  color: $bg-color-white;
+}
+
+.card__planes {
+  width: 20%;
+  margin: 60px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: $bg-color-white;
+  box-shadow: 0px 1px 10px rgba(227, 227, 227, 0.5);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card__planeshover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3%);
+}

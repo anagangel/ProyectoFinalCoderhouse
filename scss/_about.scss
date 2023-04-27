@@ -1,0 +1,45 @@
+/*PAGE NOSOTROS*/
+.nosotros {
+  width: 100%;
+  height: 100vh;
+ 
+  &-contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $bg-color-white;
+    color: $text-color;
+
+    &__imagen {
+      background-image: url("../../images/fotomainnosotros.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom, left;
+      width: 50%;
+      height: 100vh;
+    }
+
+    &-textos {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &__titulo {
+        font-size: 20px;
+        margin-bottom: 6rem;
+        color: $bg-color-dark;
+      }
+
+      &__parrafo {
+        font-size: 16px;
+        text-align: center;
+        width: 80%;
+        color: $bg-color-dark;
+      }
+    }
+  }
+}
