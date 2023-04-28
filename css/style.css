@@ -11,12 +11,22 @@ body {
   background-color: #292929;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .navbar-brand {
   color: #fff;
+}
+.navbar-brand:hover {
+  color: #fe5703;
 }
 
 .nav-link {
   color: #fff;
+}
+.nav-link:hover {
+  color: #fe5703;
 }
 
 /*   Main   */
@@ -135,7 +145,6 @@ body {
 /*PAGE CONTACTO*/
 .main__contact {
   width: 100%;
-  height: 100vh;
 }
 
 .container {
