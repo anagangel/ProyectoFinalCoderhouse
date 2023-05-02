@@ -8,7 +8,7 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    background-color: $bg-color-white;
+    background-color: $bg-color-dark;
     color: $text-color;
 
     &__imagen {
@@ -31,14 +31,14 @@
       &__titulo {
         font-size: 20px;
         margin-bottom: 6rem;
-        color: $bg-color-dark;
+        color: $bg-color-white;
       }
 
       &__parrafo {
         font-size: 16px;
         text-align: center;
         width: 80%;
-        color: $bg-color-dark;
+        color: $bg-color-white;
       }
     }
   }
