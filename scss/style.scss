@@ -1,11 +1,19 @@
-@import './variables';
-@import './reset';
-@import './nav';
-@import './home';
-@import './about';
-@import './trainers';
-@import './plans';
-@import './contact';
-@import './footer';
+@charset 'utf-8';
+
+@import './utils/variables';
+
+@import './base/reset';
 
 
+@import './layout/nav';
+@import './layout/home';
+@import './layout/about';
+@import './layout/trainers';
+@import './layout/plans';
+@import './layout/contact';
+@import './layout/footer';
+
+@import './components/button';
+@import './components/card';
+@import './components/carrusel';
+@import './components/title-principal';

@@ -1,0 +1,39 @@
+/*PAGE NOSOTROS*/
+.nosotros {
+  width: 100%;
+  height: 100vh;
+
+  &__contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $bg-color-dark;
+    color: $text-color;
+    }
+
+  &__textos {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  &__titulo {
+    font-size: 20px;
+    margin-bottom: 6rem;
+    color: $bg-color-white;
+  }
+
+  &__parrafo {
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    color: $bg-color-white;
+  }
+}
+
+
+
+

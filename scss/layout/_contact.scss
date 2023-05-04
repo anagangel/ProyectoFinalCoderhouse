@@ -1,0 +1,51 @@
+/*PAGE CONTACTO*/
+.main__contact {
+  width: 100%;
+  margin: 0 auto;
+  display: ;
+}
+
+
+.form {
+  width: 50%;
+  background-color: $bg-color-dark;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  color: $text-color;
+}
+
+.select{
+  display: block;
+  width: 100%;
+  background-color: $bg-color-dark;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  color: $text-color;
+}
+
+.mapa {
+  width: 50%;
+}
+
+.mb-3 {
+  color: $text-color;
+  text-align: left;
+}
+
+.form-control {
+  background-color: $bg-color-dark;
+}
+
+@media screen and (max-width: 992px) {
+  .form {
+    width: 80%;
+  }
+
+  .mapa {
+    width: 90%;
+    height: 500px;
+  }
+}
+

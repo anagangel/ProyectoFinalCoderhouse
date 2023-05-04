@@ -1,0 +1,25 @@
+.card{
+    width: 350px;
+    height: 800px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: $bg-color-white;
+    box-shadow: 0px 1px 10px rgba(227, 227, 227, 0.5);
+    margin: 60px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: $bg-color-white;
+    box-shadow: 0px 1px 10px rgba(143, 143, 143, 0.5);
+    transition: all 400ms ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3%);
+}
+
+.img-fluid{
+    width: 100%;
+   
+}
