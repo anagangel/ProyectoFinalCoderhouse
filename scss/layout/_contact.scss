@@ -1,31 +1,30 @@
 /*PAGE CONTACTO*/
-.main__contact {
+.contact {
   width: 100%;
   margin: 0 auto;
-}
 
+  &__form {
+    width: 50%;
+    background-color: $bg-color-dark;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    color: $text-color;
 
-.form {
-  width: 50%;
-  background-color: $bg-color-dark;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  color: $text-color;
-}
+    &__select {
+      display: block;
+      width: 100%;
+      background-color: $bg-color-dark;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      color: $text-color;
+    }
 
-.select{
-  display: block;
-  width: 100%;
-  background-color: $bg-color-dark;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  color: $text-color;
-}
-
-.mapa {
-  width: 50%;
+  }
+  &__mapa {
+    width: 50%;
+  }
 }
 
 .mb-3 {
@@ -33,9 +32,7 @@
   text-align: left;
 }
 
-.form-control {
-  background-color: $bg-color-dark;
-}
+
 
 @media screen and (max-width: 992px) {
   .form {
@@ -47,4 +44,3 @@
     height: 500px;
   }
 }
-

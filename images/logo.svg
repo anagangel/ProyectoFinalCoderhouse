@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        fill: #292929;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: .04em;
+      }
+
+      .cls-3 {
+        font-family: Bahnschrift-SemiBold, Bahnschrift;
+        font-size: 36px;
+        font-variation-settings: 'wght' 600, 'wdth' 100;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <rect class="cls-6" width="500" height="500"/>
+  <rect class="cls-2" x="169.57" y="165" width="34.43" height="108.71"/>
+  <path class="cls-2" d="m141,183v72h22v-72h-22Z"/>
+  <rect class="cls-2" x="336.62" y="183" width="23.23" height="72"/>
+  <rect class="cls-2" x="296.28" y="166" width="34.47" height="108"/>
+  <polygon class="cls-2" points="216 204 216 234.45 285 234 285 204 216 204"/>
+  <text class="cls-3" transform="translate(146.13 326.08)"><tspan class="cls-7" x="0" y="0">O</tspan><tspan x="22.89" y="0">NE</tspan><tspan class="cls-4" x="69.61" y="0">F</tspan><tspan class="cls-8" x="90.09" y="0">I</tspan><tspan class="cls-1" x="101.41" y="0">T</tspan><tspan x="119.44" y="0">NE</tspan><tspan class="cls-5" x="166.17" y="0">S</tspan><tspan x="187.63" y="0">S</tspan></text>
+</svg>
