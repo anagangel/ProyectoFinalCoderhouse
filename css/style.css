@@ -29,6 +29,11 @@ body {
   color: #fe5703;
 }
 
+.logo {
+  width: 60px;
+  height: auto;
+}
+
 /*   Main   */
 .main {
   background-image: url("../images/gimnasio-inicio.jpg");
@@ -143,12 +148,15 @@ body {
 }
 
 /*PAGE CONTACTO*/
-.main__contact {
+.contact {
   width: 100%;
   margin: 0 auto;
 }
-
-.form {
+.contact .contact__container {
+  margin-top: 2rem;
+  display: flex;
+}
+.contact__form {
   width: 50%;
   background-color: #292929;
   padding: 10px;
@@ -156,8 +164,15 @@ body {
   margin-bottom: 16px;
   color: #fff;
 }
+.contact__mapa {
+  width: 50%;
+}
 
-.select {
+.mb-3 {
+  text-align: left;
+}
+
+select {
   display: block;
   width: 100%;
   background-color: #292929;
@@ -167,25 +182,20 @@ body {
   color: #fff;
 }
 
-.mapa {
-  width: 50%;
-}
-
-.mb-3 {
-  color: #fff;
-  text-align: left;
-}
-
 .form-control {
   background-color: #292929;
+  color: #fff;
 }
 
 @media screen and (max-width: 992px) {
-  .form {
-    width: 80%;
+  .contact__container {
+    flex-direction: column;
   }
-  .mapa {
-    width: 90%;
+  .contact__form {
+    width: 100%;
+  }
+  .contact__mapa {
+    width: 100%;
     height: 500px;
   }
 }
@@ -202,10 +212,11 @@ body {
 .footer__contenedor {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 .footer__contenedor__titulo {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: bold;
   color: #fff;
 }
 .footer__contenedor__link {
@@ -215,7 +226,7 @@ body {
   color: #fff;
 }
 .footer__contenedor__parrafo {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
 }
@@ -238,10 +249,9 @@ body {
 @media screen and (max-width: 992px) {
   .footer {
     height: 80vh;
-    justify-content: space-between;
-  }
-  .footer__containermobile {
-    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
   }
 }
 .boton {

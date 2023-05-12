@@ -3,6 +3,11 @@
   width: 100%;
   margin: 0 auto;
 
+  .contact__container {
+    margin-top: 2rem;
+    display: flex;
+  }
+
   &__form {
     width: 50%;
     background-color: $bg-color-dark;
@@ -10,37 +15,45 @@
     border-radius: 4px;
     margin-bottom: 16px;
     color: $text-color;
-
-    &__select {
-      display: block;
-      width: 100%;
-      background-color: $bg-color-dark;
-      padding: 10px;
-      border-radius: 4px;
-      margin-bottom: 16px;
-      color: $text-color;
-    }
-
   }
+  
   &__mapa {
     width: 50%;
   }
 }
 
 .mb-3 {
-  color: $text-color;
   text-align: left;
+}
+
+select {
+  display: block;
+  width: 100%;
+  background-color: $bg-color-dark;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  color: $text-color;
+}
+
+.form-control{
+  background-color: $bg-color-dark;
+  color: $text-color;
 }
 
 
 
 @media screen and (max-width: 992px) {
-  .form {
-    width: 80%;
+  .contact__container {
+    flex-direction: column;
   }
 
-  .mapa {
-    width: 90%;
+  .contact__form {
+    width: 100%;
+  }
+
+  .contact__mapa {
+    width: 100%;
     height: 500px;
   }
 }
